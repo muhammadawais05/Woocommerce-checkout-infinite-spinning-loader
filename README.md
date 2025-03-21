@@ -12,6 +12,6 @@ If the problem is resolved, it’s a theme conflict. If not, continue to the nex
 5. Reactivate your other plugins one by one, testing after each, until you find the one causing conflict.
 6. If the spinning loader persists, try adding this CSS under Appearance → Customize → Additional CSS:
   .woocommerce .blockUI.blockOverlay {
-      position: relative!important;
-      display: none!important;
+      position: relative !important;
+      display: none !important;
     }
